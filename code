@@ -1,1 +1,0 @@
-find * -name 'slink[0-9]' -type l | xargs ls -l | awk '{print "symlink: "$9 " -> file: " $11}'
